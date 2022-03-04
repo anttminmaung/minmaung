@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>My project</title>
+	<link  href="./img/fav/favicon.jpeg" rel="icon" type="image/icon">
+
+	<link href="css/my project1.css" rel="stylesheet" type="text/css" >
+
+</head>
+<body>
+<div id="top"></div>
+<div>
+
+<marquee><span class="div1">Notify!</span>
+<marquee direction="left" bgcolor="yellow" width="1700px" height="20px" scroll amount="15">fill out the form before login</marquee>
+</marquee>
+
+</div>
+<fieldset>
+<legend><i>Search about of CR.7</i></legend>
+<form enctype="multiplart/form-data" action="" method="">
+	
+    <img src="./img/coverphoto/img3.jpeg" width="100px">
+<br/>
+
+<label for="firstname">First name</label>
+<input type="text" name="firstname" placeholder=" required yourfirstname" required maxlength="7" minlength="3" id="firstname" autofocus>
+
+<br/><br/>
+
+
+<label for="lastname">Last name</label>
+<input type="text" name="firstname" placeholder=" required yourfirstname" required maxlength="7" minlength="3" id="lastname">
+
+
+<br/><br/>
+<label for="email">Password</label>
+<input type="password" name="email" placeholder=" required yourpassword" required id="passsword">
+
+
+<br/><br/>
+
+<label for="email">Email</label>
+<input type="email" name="email" placeholder=" required youremail" required id="email" autocomplete="">
+
+<br/><br/>
+
+<label for="age">AGE</label>
+<input type="number" name="age" placeholder="pls fill age" >
+
+<br/><br/>
+
+<label>Gender</label>
+<input type="radio" name="gender" id="genderm" >
+<label for="genderm">Male</label>
+
+
+<input type="radio" name="gender" id="genderfe" >
+<label for="genderfe">Female</label>
+
+
+<input type="radio" name="gender" id="other" >
+
+<label for="other">Other</label>
+
+<br/><br/>
+
+<label>choose fav color</label>
+
+<input type="checkbox" name="color" id="colorred" checked>
+
+<label for="colorred">red</label>
+
+
+<input type="checkbox" name="color" id="colorbu">
+
+<label for="colorbu">blue</label>
+
+<input type="checkbox" name="color" id="colorye">
+
+<label for="colorye">yellow</label>
+
+<br/><br/>
+
+<label>Citizen</label>
+<select name="country" name="country" id="country" class="">
+<option selected disabled>choose your country</option>
+<option value="mm">Myanmar</option>
+<option value="ko">Korea</option>
+<option value="jp">Japn </option>
+<option value="tha">Thailand</option>
+</select>
+
+<br/><br/>
+
+
+<label>choose city</label>
+<select name="role" id="city" class="" multiple>
+	<option value="1">Yangon</option>
+	<option value="2">Seoul</option>
+	<option value="3">Tokyo</option>
+	<option value="4">Bangkok</option>
+
+
+</select>
+
+<br/><br/>
+
+
+<label>appointment</label>
+<input type="datetime-local" name="appointment" id="">
+
+<br/><br/>
+
+<label>Bio</label>
+<textarea name="bio" id="bio" class="" rows="20" placeholder="let us know about yourself"></textarea>
+
+<br/><br/>
+<label>Accept my login form rule</label>
+
+<input type="radio" name="Yes" id="YES" class="Yes">
+<label for="YES">YES</label>
+
+<input type="radio" name="Yes" id="NO" class="Yes">
+<label for="NO">NO</label>
+
+
+
+<br/><br/>
+
+<button type="login" name="login" id="login" class="login">login</button>
+
+<br/><br/>
+<a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Myanmar Search</a>
+
+<br/><br/>
+<a href="#">go to top</a>
+<br/><br/>
+
+
+<textarea name="advice" id="advice" class="advice" rows="5" placeholder="write down your advice"></textarea>
+<br/><br/>
+<center><small><u>THANKYOU FOR YOUR ADVICE</u></small></center>
+
+</form>
+</fieldset>	
+</body>
+</html>
